@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Comman\Project.Comman.csproj" />
+    <ProjectReference Include="..\Project.Data\Project.Data.csproj" />
+    <ProjectReference Include="..\Project.Intergration\Project.User.Intergration.csproj" />
+    <ProjectReference Include="..\Project.Repository\Project.Repository.csproj" />
+    <ProjectReference Include="..\Project.ResponseHandler\Project.ResponseHandler.csproj" />
+  </ItemGroup>
+
+</Project>
